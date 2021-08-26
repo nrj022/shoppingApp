@@ -13,8 +13,13 @@ import {Text, View, StyleSheet} from 'react-native';
 class StoreBookmarkScreen extends Component {
   render() {
     return (
-      <View>
-        <Text>hi</Text>
+      <View
+        style={{
+          height: '100%',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
+        <Text>This is a Bookmark tab!</Text>
       </View>
     );
   }

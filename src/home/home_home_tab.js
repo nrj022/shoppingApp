@@ -14,6 +14,49 @@ import {Text, View, Image, ImageBackground} from 'react-native';
   return <ImageBackground source={require('../assets/pics/upcy_logo.png')} />;
 }; */
 
+const storeList1 = [
+  {
+    name: 'MESSENGER MEDIUM',
+    brand: 'FREITAG',
+    price: '346,000',
+    image: require(''),
+  },
+  {name: 'POUCH EXTRA SMALL', brand: '', price: '44,000', image: require('')},
+  {
+    name: 'Back pleats hybrid T-shirt',
+    brand: 'RE;CODE',
+    price: '190,000',
+    image: require(''),
+  },
+  {
+    name: 'Recycled fabric shorts',
+    brand: '',
+    price: '99,000',
+    image: require(''),
+  },
+];
+const storeList2 = [
+  {
+    name: 'airbag packable back-pack (S)',
+    brand: '',
+    price: '',
+    image: require(''),
+  },
+  {
+    name: 'LABEL_FRAME CLUTCH_HASSAM',
+    brand: 'UL:KIN',
+    price: '188,000',
+    image: require(''),
+  },
+  {
+    name: '챌린저백 / challenger bag',
+    brand: '119REO',
+    price: '98,000',
+    image: require(''),
+  },
+  {name: 'REO893 토트백 ', brand: '', price: '220,000', image: require('')},
+];
+
 class HomeHomeScreen extends Component {
   render() {
     return (
@@ -36,8 +79,19 @@ class HomeHomeScreen extends Component {
               position: 'absolute',
               top: 20,
               left: 30,
+              backgroundColor: 'white',
             }}>
-            {`참새 방앗간과 함께\n병뚜껑 모으기`}
+            {`플라스틱 방앗간과 함께\n병뚜껑 모으기`}
+          </Text>
+          <Text
+            style={{
+              fontSize: 15,
+              position: 'absolute',
+              top: 80,
+              left: 30,
+              backgroundColor: 'white',
+            }}>
+            {`이벤트 바로가기 >`}
           </Text>
         </ImageBackground>
         <View
